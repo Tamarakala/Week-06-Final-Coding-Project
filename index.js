@@ -113,6 +113,5 @@ class Card {
     }
   }
   
-  // At last here is the "playGame" method, which is called to start the game, 
-  const game = new Game();
-  game.playGame();
+    const game = new Game();
+    game.playGame();

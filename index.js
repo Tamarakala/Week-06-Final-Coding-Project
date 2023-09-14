@@ -26,7 +26,7 @@ class Card {
     }
   }
   
-  // Represents a deck of cards with methods. The "getCards" 
+  // The deck class represents a deck of cards with methods. The "getCards" 
   // creates a deck of cards with suits and ranks. The "shuffCards" shuffls the deck randomly.
   // And the "getDeck" generates a shuffled deck of cards. 
   class Deck {
@@ -60,7 +60,7 @@ class Card {
   
 // The game class manages the game, which covers initializing players, dealing cards, playing rounds and 
 // determining the winner. This class provides the methods: "dealCards", which deals the cards to
-// players from the deck. The "playRound"comparing players' cards and gives the pints. The "playGame" manages 
+// players from the deck. The "playRound" comparing players' cards and gives the pints. The "playGame" manages 
 // the whole game until a player runs out of cards and declaring a winner. 
   class Game {
     constructor() {
